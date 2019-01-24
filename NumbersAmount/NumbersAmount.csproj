@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4B4C6760-457E-47C8-B8BB-9FEEA67EB9C1}</ProjectGuid>
+    <ProjectGuid>{84A35A08-A154-4207-A110-F724461A5043}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>swap</RootNamespace>
-    <AssemblyName>swap</AssemblyName>
+    <RootNamespace>NumbersAmount</RootNamespace>
+    <AssemblyName>NumbersAmount</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="swap.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

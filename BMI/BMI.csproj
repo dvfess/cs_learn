@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C1772C27-E37F-407D-A02F-93C8BB771773}</ProjectGuid>
+    <ProjectGuid>{BC110E53-A776-4C32-BC8F-7DC74CDB8036}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>BMI</RootNamespace>
     <AssemblyName>BMI</AssemblyName>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="bmi.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
