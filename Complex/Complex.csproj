@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{84A35A08-A154-4207-A110-F724461A5043}</ProjectGuid>
+    <ProjectGuid>{A011F6E3-E10C-4739-8812-41E6CDF4387B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>NumbersAmount</RootNamespace>
-    <AssemblyName>NumbersAmount</AssemblyName>
+    <RootNamespace>Complex</RootNamespace>
+    <AssemblyName>Complex</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Complex.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
