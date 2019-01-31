@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{33D6F962-C3CC-499F-B69C-2282E0E72229}</ProjectGuid>
+    <ProjectGuid>{4A9B6D0A-827E-4AB4-98FE-F64ADF3A5AFB}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>SummOfOdd</RootNamespace>
-    <AssemblyName>SummOfOdd</AssemblyName>
+    <RootNamespace>helper</RootNamespace>
+    <AssemblyName>helper</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Odd.cs" />
+    <Compile Include="helper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

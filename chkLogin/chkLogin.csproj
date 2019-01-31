@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A011F6E3-E10C-4739-8812-41E6CDF4387B}</ProjectGuid>
+    <ProjectGuid>{7EF9D3C5-BFB7-46A0-B0B5-9FF3599F3B80}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Complex</RootNamespace>
-    <AssemblyName>Complex</AssemblyName>
+    <RootNamespace>chkLogin</RootNamespace>
+    <AssemblyName>chkLogin</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Complex.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
