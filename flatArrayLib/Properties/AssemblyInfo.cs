@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("SummOfOdd")]
+[assembly: AssemblyTitle("flatArrayLib")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("SummOfOdd")]
+[assembly: AssemblyProduct("flatArrayLib")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("33d6f962-c3cc-499f-b69c-2282e0e72229")]
+[assembly: Guid("367365b8-da01-4395-bc14-28d38b143b1d")]
 
 // Version information for an assembly consists of the following four values:
 //

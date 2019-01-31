@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A011F6E3-E10C-4739-8812-41E6CDF4387B}</ProjectGuid>
+    <ProjectGuid>{8E9F8DBF-3DAF-4D0D-B06C-5E60F8F41719}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Complex</RootNamespace>
-    <AssemblyName>Complex</AssemblyName>
+    <RootNamespace>flatArray</RootNamespace>
+    <AssemblyName>flatArray</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,11 +43,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Complex.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\flatArrayLib\flatArrayLib.csproj">
+      <Project>{367365b8-da01-4395-bc14-28d38b143b1d}</Project>
+      <Name>flatArrayLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\helper\helper.csproj">
+      <Project>{4a9b6d0a-827e-4ab4-98fe-f64adf3a5afb}</Project>
+      <Name>helper</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

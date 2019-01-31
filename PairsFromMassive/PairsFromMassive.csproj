@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{33D6F962-C3CC-499F-B69C-2282E0E72229}</ProjectGuid>
+    <ProjectGuid>{8846B452-7A7E-4E2E-8343-9307D7A199FC}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>SummOfOdd</RootNamespace>
-    <AssemblyName>SummOfOdd</AssemblyName>
+    <RootNamespace>PairsFromMassive</RootNamespace>
+    <AssemblyName>PairsFromMassive</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,11 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Odd.cs" />
+    <Compile Include="Pairs.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\helper\helper.csproj">
+      <Project>{4a9b6d0a-827e-4ab4-98fe-f64adf3a5afb}</Project>
+      <Name>helper</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
