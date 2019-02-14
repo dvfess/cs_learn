@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WF_Udvoitel.Properties
+namespace BelieveOrNotBelieve.Properties
 {
 
 
