@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BB58C975-B6A8-452D-B3D8-1991DD3E7E87}</ProjectGuid>
+    <ProjectGuid>{9616C2CE-8D72-437A-B461-13BEF5FA452C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>distance</RootNamespace>
-    <AssemblyName>distance</AssemblyName>
+    <RootNamespace>AAA</RootNamespace>
+    <AssemblyName>AAA</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="distance.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
