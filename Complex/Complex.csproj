@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4B4C6760-457E-47C8-B8BB-9FEEA67EB9C1}</ProjectGuid>
+    <ProjectGuid>{A011F6E3-E10C-4739-8812-41E6CDF4387B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>swap</RootNamespace>
-    <AssemblyName>swap</AssemblyName>
+    <RootNamespace>Complex</RootNamespace>
+    <AssemblyName>Complex</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="swap.cs" />
+    <Compile Include="Complex.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
